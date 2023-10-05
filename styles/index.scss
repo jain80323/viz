@@ -1,0 +1,65 @@
+/**********************************************
+
+(c) Biofourmis | 2019
+Author: Venkatesh Gangavarapu
+***********************************************/
+@import 'normalize';
+@mixin noSelect(){
+    user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit-user-select: none!important;
+    -o-user-select: none!important;
+    -ms-user-select: none!important;
+    -moz-user-select: none!important;
+    -webkit: none!important
+}
+
+
+
+
+*, *:after,*:before{
+	box-sizing: border-box;
+
+  //For iOS tap glitch fix
+  -webkit-tap-highlight-color:transparent;
+}
+
+
+svg{
+  overflow: visible !important;
+}
+
+html,body{
+  background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	//@include noSelect;
+}
+
+#App{
+  overflow: hidden;
+}
+// .bv-legend{
+//   margin-top:5px;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
+// .bv-leg-item span{
+//   width: 12px;
+//   height: 12px;
+//   display: inline-block;
+//   margin-right: 5px;
+//   fill-opacity: 0.5;
+//   border-radius: 3px;
+// }
+// .bv-leg-item{
+//   flex-grow: 1;
+//   text-align: center;
+//   padding: 10px 20px 10px 20px;
+//   margin-top: 5px;
+//   height: 40px;
+//   margin-left: 10px;
+//   border-radius: 5px;
+//   font-size: 12px;
+//   line-height: 20px;
+// }
