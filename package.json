@@ -8,7 +8,7 @@
     "make": "./node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Venkatesh Gangavarapu",
+  "author": "Saurabh Gang",
   "dependencies": {
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
